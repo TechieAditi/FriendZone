@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "944792111526",
+    "firebase_url": "https://friend-zone-43134.firebaseio.com",
+    "project_id": "friend-zone-43134",
+    "storage_bucket": "friend-zone-43134.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944792111526:android:8531a3d3d45a0f108a2767",
+        "android_client_info": {
+          "package_name": "com.elab.friendzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944792111526-b2qf6splmnsjh5uvmolhb16f2hvmf1jl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.elab.friendzone",
+            "certificate_hash": "7e6278d029502fbeabd031fbd0198cec69a865bb"
+          }
+        },
+        {
+          "client_id": "944792111526-5gc4bfc3l5dd8kn0uvqt6i49ekcicrle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeTf74wTC2yAwu9GTQtrzxmWidKC8-Eog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944792111526-5gc4bfc3l5dd8kn0uvqt6i49ekcicrle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
