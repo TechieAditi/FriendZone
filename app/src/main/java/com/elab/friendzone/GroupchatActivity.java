@@ -64,7 +64,7 @@ public class GroupchatActivity extends AppCompatActivity {
         mauth = FirebaseAuth.getInstance();
         currentuserid = mauth.getCurrentUser().getUid();
         queue= Volley.newRequestQueue(this);
-       // FirebaseMessaging.getInstance().subscribeToTopic(userid);
+       FirebaseMessaging.getInstance().subscribeToTopic(userid);
         userref = FirebaseDatabase.getInstance().getReference().child("Users");
         grpnameref = FirebaseDatabase.getInstance().getReference().child("Groups").child(currentgroupname);
         initializefields();
@@ -75,7 +75,7 @@ public class GroupchatActivity extends AppCompatActivity {
                 sendmsgtodatabse();
                 usermsg.setText("");
                 mscroll.fullScroll(ScrollView.FOCUS_DOWN);
-                //sendNotification();
+                sendNotification();
 
             }
 
@@ -215,7 +215,7 @@ public class GroupchatActivity extends AppCompatActivity {
         }
 
     }
-    /*private void sendNotification()
+    private void sendNotification()
     {
         JSONObject mainobj=new JSONObject();
         try {
@@ -252,7 +252,7 @@ public class GroupchatActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
-    }*/
+    }
 }
 
 
