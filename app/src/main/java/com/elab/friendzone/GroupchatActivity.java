@@ -199,7 +199,7 @@ public class GroupchatActivity extends AppCompatActivity {
             int systemdatte = Integer.parseInt(systemdates);
             systemdatte -= dateint;
 
-            if (systemdatte >=1) {
+            if (systemdatte >=2) {
                 DatabaseReference reference = FirebaseDatabase.getInstance().getReference().child("Groupus").child(currentgroupname).child(key);
                 //reference.child("Date").removeValue();
                 //reference.child("Time").removeValue();

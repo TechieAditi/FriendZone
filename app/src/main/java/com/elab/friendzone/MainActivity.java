@@ -137,7 +137,6 @@ public class MainActivity extends AppCompatActivity {
             mauth.signOut();
             sendUsertologinactivity();
             finish();
-
         }
         if(item.getItemId()==R.id.main_settings)
         {
